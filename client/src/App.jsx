@@ -11,7 +11,7 @@ function App() {
         <img src={logo} alt="logo" className='w-28 object-contain'  />
       </Link> */}
         <Link to="/">
-          <a className="text-3xl font-bold text-[#6469ff]" href="/">
+          <a className="text-3xl font-bold text-[#6469ff] text-[26px] " href="/">
             VisionCraft
           </a>
         </Link>
