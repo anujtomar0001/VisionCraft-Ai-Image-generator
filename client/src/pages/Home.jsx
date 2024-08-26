@@ -23,7 +23,8 @@ const Home = () => {
       setLoading(true);
 
       try {
-        const response = await fetch("https://visioncraft-ai-image-generator.onrender.com/api/v1/post", {
+        // const response = await fetch("https://visioncraft-ai-image-generator.onrender.com/api/v1/post", {
+        const response = await fetch(`${process.env.REACT_APP_API_URL}/api/v1/dalle`, {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
